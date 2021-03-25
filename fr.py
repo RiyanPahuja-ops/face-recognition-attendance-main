@@ -63,6 +63,3 @@ def recognize_face(images_encoded):
         cv2.imshow('WebCam', img)
         if cv2.waitKey(2) & 0xFF == ord('q'):
             break
-
-        cap.release()
-        cv2.destroyAllWindows()
